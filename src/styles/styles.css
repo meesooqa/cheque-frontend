@@ -1,0 +1,14 @@
+@charset 'utf-8';
+
+/* Blocks */
+
+@import 'blocks/box-sizing.css';
+@import 'blocks/visually-hidden.css';
+@import 'blocks/page.css';
+
+/* Globals */
+
+:root {
+    --clr-text-black: #1f2328;
+    --clr-bg: #ffffff;
+}
