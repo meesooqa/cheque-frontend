@@ -1,110 +1,138 @@
 <!DOCTYPE html>
-<html class="page">
+<html lang="en">
 <head>
     <title>Document Title</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/styles/styles.css">
 </head>
-<body class="page__body">
-<div class="container">
-    <h1 class="title">Document Title</h1>
-    <ul class="pagination">
-        <li class="page-item disabled">
-            <a class="page-link" href="#" aria-label="Previous">
-                <span aria-hidden="true">&laquo;</span>
-            </a>
-        </li>
-        <li class="page-item active"><a class="page-link" href="#">1</a></li>
-        <li class="page-item"><a class="page-link" href="#">2</a></li>
-        <li class="page-item"><a class="page-link" href="#">3</a></li>
-        <li class="page-item">
-            <a class="page-link" href="#" aria-label="Next">
-                <span aria-hidden="true">&raquo;</span>
-            </a>
-        </li>
-    </ul>
-    <table class="table table-striped table-hover">
-    <tbody>
-        <tr>
-            <th>One</th>
-            <th>Two</th>
-            <th>Three</th>
-            <th>Four</th>
-            <th>Five</th>
-        </tr>
-        <tr>
-            <td><a href="#">Link th cell</a></td>
-            <td>Two</td>
-            <td>Link td cell</td>
-            <td>Four</td>
-            <td>Five</td>
-        </tr>
-        <tr>
-            <td><a href="#">Link row</a></td>
-            <td>Two</td>
-            <td>Three</td>
-            <td>Four</td>
-            <td>Five</td>
-        </tr>
-        <tr>
-            <td><a href="#">Primary th cell</a></td>
-            <td>Two</td>
-            <td>Primary td cell</td>
-            <td>Four</td>
-            <td>Five</td>
-        </tr>
-        <tr>
-            <td><a href="#">Primary row</a></td>
-            <td>Two</td>
-            <td>Three</td>
-            <td>Four</td>
-            <td>Five</td>
-        </tr>
-        <tr>
-            <td><a href="#">Info th cell</a></td>
-            <td>Two</td>
-            <td>Info td cell</td>
-            <td>Four</td>
-            <td>Five</td>
-        </tr>
-        <tr>
-            <td><a href="#">Info row</a></td>
-            <td>Two</td>
-            <td>Three</td>
-            <td>Four</td>
-            <td>Five</td>
-        </tr>
-        <tr>
-            <td><a href="#">Success th cell</a></td>
-            <td>Two</td>
-            <td>Success td cell</td>
-            <td>Four</td>
-            <td>Five</td>
-        </tr>
-        <tr>
-            <td><a href="#">Success row</a></td>
-            <td>Two</td>
-            <td>Three</td>
-            <td>Four</td>
-            <td>Five</td>
-        </tr>
-        <tr>
-            <td><a href="#">Warning th cell</a></td>
-            <td>Two</td>
-            <td>Warning td cell</td>
-            <td>Four</td>
-            <td>Five</td>
-        </tr>
-        <tr>
-            <td><a href="#">Warning row</a></td>
-            <td>Two</td>
-            <td>Three</td>
-            <td>Four</td>
-            <td>Five</td>
-        </tr>
-        </tbody>
-    </table>
+<body>
+<div class="container mt-5">
+    <div class="row mb-4">
+        <div class="col">
+            <h1>Document Title</h1>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col">
+            <form>
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Name">
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+                        <label for="date" class="form-label">Date</label>
+                        <input type="date" class="form-control" id="date">
+                    </div>
+
+                    <div class="col-md-4 mb-3 d-flex align-items-end">
+                        <button type="submit" class="btn btn-primary">Filter</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col">
+            <table class="table table-striped table-hover">
+            <tbody>
+                <tr>
+                    <th>One</th>
+                    <th>Two</th>
+                    <th>Three</th>
+                    <th>Four</th>
+                    <th>Five</th>
+                </tr>
+                <tr>
+                    <td><a href="#">Link th cell</a></td>
+                    <td>Two</td>
+                    <td>Link td cell</td>
+                    <td>Four</td>
+                    <td>Five</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Link row</a></td>
+                    <td>Two</td>
+                    <td>Three</td>
+                    <td>Four</td>
+                    <td>Five</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Primary th cell</a></td>
+                    <td>Two</td>
+                    <td>Primary td cell</td>
+                    <td>Four</td>
+                    <td>Five</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Primary row</a></td>
+                    <td>Two</td>
+                    <td>Three</td>
+                    <td>Four</td>
+                    <td>Five</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Info th cell</a></td>
+                    <td>Two</td>
+                    <td>Info td cell</td>
+                    <td>Four</td>
+                    <td>Five</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Info row</a></td>
+                    <td>Two</td>
+                    <td>Three</td>
+                    <td>Four</td>
+                    <td>Five</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Success th cell</a></td>
+                    <td>Two</td>
+                    <td>Success td cell</td>
+                    <td>Four</td>
+                    <td>Five</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Success row</a></td>
+                    <td>Two</td>
+                    <td>Three</td>
+                    <td>Four</td>
+                    <td>Five</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Warning th cell</a></td>
+                    <td>Two</td>
+                    <td>Warning td cell</td>
+                    <td>Four</td>
+                    <td>Five</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Warning row</a></td>
+                    <td>Two</td>
+                    <td>Three</td>
+                    <td>Four</td>
+                    <td>Five</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col text-center">
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link" href="#">&laquo;</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
+            </ul>
+        </div>
+    </div>
 </div>
 </body>
 <script type="module" src="assets/scripts/index.js"></script>
