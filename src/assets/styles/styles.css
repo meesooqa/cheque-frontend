@@ -2,17 +2,4 @@
 
 /* Libs */
 
-@import '../libs/bootstrap/4.5.2/bootstrap.min.css';
-
-/* Blocks */
-
-/*@import 'blocks/box-sizing.css';*/
-/*@import 'blocks/visually-hidden.css';*/
-/*@import 'blocks/page.css';*/
-
-/* Globals */
-
-:root {
-    --clr-text-black: #1f2328;
-    --clr-bg: #ffffff;
-}
+@import '../libs/bootstrap/5.3.3/bootstrap.min.css';
