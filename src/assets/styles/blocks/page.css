@@ -7,7 +7,7 @@
 
 .page {
     color: var(--clr-text-black);
-    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
     background-color: var(--clr-bg);
     scroll-behavior: smooth;
 }
